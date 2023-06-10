@@ -1,0 +1,22 @@
+::selection {
+  background: purple;
+  color: plum;
+}
+
+:root {
+  color: #313;
+  background-color: violet;
+  background-image: conic-gradient(violet, deeppink, deeppink, violet);
+}
+
+:any-link {
+  color: #313;
+  background-color: violet;
+  background-image: conic-gradient(plum, violet, transparent, transparent);
+}
+
+:focus {
+  background: transparent;
+  outline: thick dotted;
+  box-shadow: 0 0 0 1vmax;
+}
